@@ -1,0 +1,27 @@
+{
+  "name": "edu-ricardo.github.io",
+  "homepage": "http://edu-ricardo.github.io",
+  "authors": [
+    "Eduardo <edu_ricardo@live.com>"
+  ],
+  "description": "Portifólio",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "portifolio",
+    "html",
+    "js",
+    "angular",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
