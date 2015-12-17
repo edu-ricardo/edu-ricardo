@@ -7,15 +7,15 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper" ng-controller="CtrlMain">
-        Posts Angular
-        <ul ng-repeat="post in posts">
-          <li><span ng-bind="post.title"></span></li>  
-        </ul>
+    
+    <div class="container" ng-controller="CtrlMain">
+      Posts Angular<br />
+      <input type="text" ng-model="f.title" />
+      <ul ng-repeat="post in posts | filter:f">
+        <li><span ng-bind="post.title"></span></li>  
+      </ul>
 
-        {{ content }}
-      </div>
+      {{ content }}
     </div>
 
     {% include footer.html %}

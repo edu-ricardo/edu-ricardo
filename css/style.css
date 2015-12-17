@@ -1,0 +1,25 @@
+.icon{
+	width: 15px;
+	height: 15px
+}
+
+.post{
+	min-height: 400px;	
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /* height: 150px; */
+  bottom: 0;
+  background-color: #2A2730;
+  color: #99979C;
+  padding-top: 30px;
+}
