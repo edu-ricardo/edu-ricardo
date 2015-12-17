@@ -25,10 +25,20 @@
         </ul>
       </div>
       <div class="col-md-3">
-        
+        <h4>Projetos</h4>
+          <ul class="list-unstyled">
+            {% for project in site.projects %}
+              <li><a href="{{ project.url }}">{{ project.nome }}</a></li>
+            {% endfor %}
+          </ul>
       </div>
       <div class="col-md-3">
         <p class="text-justified">{{ site.description }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <p class="text-center">{{ site.author }}</p>
       </div>
     </div>    
   </div>  
