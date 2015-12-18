@@ -18,6 +18,3 @@ github_username:  edu-ricardo
 author: Eduardo Ricardo
 # Build settings
 markdown: kramdown
-collections:
-  projects:
-    output: true
