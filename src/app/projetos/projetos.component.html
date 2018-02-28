@@ -1,3 +1,8 @@
 <p>
   projetos works!
+  <span *ngFor="let t of obj">
+    {{ t.nome }} ||
+    {{ t.data }}
+  </span>  
 </p>
+<p *ngIf="obj.length > 1">There are many heroes!</p>

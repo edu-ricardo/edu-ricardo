@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ProjetosComponent } from './projetos/projetos.component';
 
+import { ProjetosService } from './services/projetos.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { ProjetosComponent } from './projetos/projetos.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ProjetosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
