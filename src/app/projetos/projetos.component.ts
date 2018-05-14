@@ -10,6 +10,7 @@ import { Projeto } from '../models/projeto';
 export class ProjetosComponent implements OnInit {
 
   public obj: Array<Projeto>;
+  public path: string;
 
   constructor(public projetos_s: ProjetosService) { }
 
